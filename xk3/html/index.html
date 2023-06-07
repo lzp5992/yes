@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家具</title>
+    <style>
+
+        .wrap{
+            width:880px; height:200px;
+            position:absolute; top:60%; left:50%;
+            margin-left:-440px;margin-top:-84px;
+            perspective:1000px;
+    }
+        .ban
+        {
+            width:880px;height:168px;
+            position:relative;
+            transform-style:preserve-3d;
+            transform-origin: 50% 50% -364px;
+           
+    }
+        .ban>img{
+        position: absolute; top:0; left:50%;  
+        margin-left: -182.5px;
+        transform-origin: 50% 50% -364px;
+    }
+    .ban>img:nth-child(2){transform: rotateY(90deg);}
+    .ban>img:nth-child(3){transform: rotateY(180deg);}
+    .ban>img:nth-child(4){transform: rotateY(270deg);}
+    @keyframes adv {
+        0%{transform: rotateY(0deg)}
+        100%{transform: rotateY(360deg)}
+    }
+    .ban{animation:adv 18s linear infinite;}
+    .ban:hover{animation-play-state:paused   }
+    </style>
+    <link rel="stylesheet" href="../css/2box.css">
+    <script src="../js/box.js"></script>
+</head>
+<body>
+    <div id="box">
+        <!-- box -->
+         <div id="one">
+            <div id="one_box">
+                <div id="one_box_one">
+                    <div class="one_box_one">
+                        <div class="one_box_one_logo">
+                            <img src="../images/logo_1.png" alt="">
+                        </div>
+                        <div class="one_box_one_body">
+                            <div><a href="">新房</a></div>
+                            <div><a href="">二手房</a></div>
+                            <div><a href="../html/index1.html">租房</a></div>
+                            <div><a href="">楼讯</a></div>
+                            <div><a href="">经纪人</a></div>
+                        </div>
+                        <div class="one_box_one_right">
+                            <div><a href="./zc.html">注册</a></div>
+                            <div><a href="">|</a></div>
+                            <div><a href="./dl.html">登录</a></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- one_box_one -->
+                <div id="one_box_two">
+                    <div class="one_box_two">
+                        <img src="../images/text_01.png" alt="">
+                    </div>
+                </div>
+                <!-- one_box_two -->
+                <div id="one_box_three">
+                    <div>
+                        <div class="mi">
+                            <input type="search" name="" id="" placeholder="">
+                            
+                            <button type="button2"><a href="#">开始找房</a></button>
+                            <ul class="result-list">
+                                <li><a href="#">全部商品</a></li>
+                                <li><a href="#">红米手机</a></li>
+                                <li><a href="#">小米14S</a></li>
+                                <li><a href="#">小米笔记本</a></li>
+                                <li><a href="#">小米家电</a></li>
+                                <li><a href="#">小米手机</a></li>
+                                <li><a href="#">云米空调</a></li>
+                                <li><a href="#">云米智能机器人</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="ban">
+                        <img src="images/zp1.png" alt="" width="365px" height="188px">
+                        <img src="images/zp2.png" alt="" width="365px" height="188px">
+                        <img src="images/zp3.png" alt="" width="365px" height="188px">
+                        <img src="images/zp4.png" alt="" width="365px" height="188px">
+                    </div>
+                </div>
+                <!-- one_box_three -->
+                <div id="one_box_four">
+                    <div class="one_box_four"> 今日新增出租信息234条 二手房真实房源889套 在售新楼盘112个</div>
+                </div>-
+                <!-- one_box_four -->
+            </div>
+         </div>
+         <!-- one -->
+         <div id="two">
+            <div class="two">
+               <div class="two_old_one">
+                <div class="two_one">
+                    <div><img src="../images/icon_1.png" alt="" width="76px" height="65px"></div>
+                </div>
+                <div class="two_one_div1">找出租</div>
+                <div class="two_one_div2">真实出租房源，优生活承诺真实房源所见即真</div>
+               </div>
+               <div class="two_old_two">
+                <div class="two_two">
+                    <div><img src="../images/icon_2.png" alt="" width="76px" height="65px"></div>
+                </div>
+                <div class="two_two_div1">地图找房</div>
+                <div class="two_two_div2">地图精确定位，位置周边配套，设施一览无遗</div>
+               </div>
+              <div class="two_old_three">
+                <div class="two_three">
+                    <div><img src="../images/icon_3.png" alt="" width="76px" height="65px"></div>
+                </div>
+                <div class="two_three_div1">地铁找房</div>
+                <div class="two_three_div2">房源紧邻地铁站，交通出行更方便说走就走</div>
+              </div>
+            </div>
+         </div>
+         <!-- two -->
+         <div id="three">
+            <div class="three">
+                <div class="three_one">
+                    <img src="../images/text_02.png" alt="">
+                </div>
+                <div class="three_two">
+                    集二手、新房、租房功能于一体，每天发布海量新房源，让您随时随地任性找房！在线咨询让您放心，消息动态推送让您省心，服务承诺让您安心，数据百科镜妻让您感受贴心漫漫找房路，我们努力为您想更多！
+
+                </div>
+                <div class="three_three">
+                    <div class="three_three_one">
+                        <img src="../images/qrcode.png" alt="">
+                    </div>
+                    <div class="three_three_two">
+                        <div class="three_three_two_one">
+                            iPhone
+                        </div>
+                        <div class="three_three_two_two">
+                            Android
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- three -->
+         <div id="four">
+            <div class="four">
+                <div class="four_right">
+                    <div class="four_right_left"></div>
+                    <div class="four_right_right">
+                        <div>客服热线</div>
+                        <div>130-8257-8520<br>(9:00-24:00)</div>
+                    </div>
+                </div>
+                <div class="four_left">
+                   <div class="four_left_one">
+                        <div class="four_left_one_top">
+                        <div><a href="">了解优生活</a></div>
+                        <div><a href="">联系我们</a></div>
+                        <div><a href="">加入我们</a></div>
+                        <div><a href="">隐私声明</a></div>
+                        <div><a href="">网站地图</a></div>
+                        <div><a href="">友情链接</a></div>
+                        <div><a href="">经纪人登录</a></div>
+                        </div>
+                   </div>
+               
+                 <div class="four_left_two">
+                    <div>北京优生活房地产有限公司</div>
+                    <div>网络经营许可证 京ICP备11024601号-12</div>
+                    <div> Copyright@2010-2017 优生活 Ulift.com 版权所有</div>
+                 </div>
+                </div>
+              
+            </div>
+         </div>
+         <!-- four -->
+    </div>
+</body>
+</html>
